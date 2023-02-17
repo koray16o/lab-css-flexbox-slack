@@ -1,3 +1,325 @@
+.letsTry {
+    display: flex;
+    flex-direction: column;
+}
+.letsSee {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+header {
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+em {
+    color: #ECB12F;
+}
+#howTitle {
+    color: white;
+}
+#signUp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+#email {
+    text-transform: uppercase;
+    color: #540B51;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#google {
+    background-color: #2E71A6;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+}
+.googlepic {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 40px;
+}
+.googletext {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+}
+@media (max-width: 768px) {
+    body {
+        background-color: #540B51;
+    }
+}
+
+.projectimage {
+   display: block;
+   margin-top: 40px;
+   margin-left: -80px;
+   width: 10px;
+}
+.letstitle {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+section {
+    background-color: #F3EAE2;
+}
+.somelogos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#logo1 {
+    width: 200px;
+    height: 70px;
+}
+#logo2 {
+    width: 100px;
+    height: 90px;
+}
+#logo3 {
+    width: 120px;
+    height: 60px;
+}
+#logo4 {
+    width: 100px;
+    height: 80px;
+}
+#logo5 {
+    width: 400px;
+    height: 70px;
+}
+#logo6 {
+    width: 200px;
+    height: 70px;
+}
+#bigimage {
+    width: 700px;
+}
+h2 {
+   font-weight: bold;
+   font-size: 50px;
+   margin-left: 20px;
+}
+.bringteam {
+    font-weight: bold;
+    font-size: 30px;
+    width: 650px;
+    margin-left: 20px;
+}
+#channel {
+    margin-left: 20px;
+}
+#bigimage2 {
+    width: 700px;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+.wanttowork {
+    font-weight: bold;
+    font-size: 30px;
+    width: 600px;
+    margin-left: 20px;
+}
+#communicate {
+    margin-left: 20px;
+}
+#bigimage3 {
+    width: 700px;
+}
+.workapps {
+    font-weight: bold;
+    font-size: 30px;
+    width: 650px;
+    margin-left: 20px;
+}
+#stackplatform {
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.endingpart {
+    background-color: white;
+    margin-top: 0 auto;
+}
+#moveup {
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 100px;
+}
+#phrase1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    width: 650px;
+    margin-left: 20px;
+}
+.letsusebuttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+#slackforbs {
+    text-transform: uppercase;
+    background-color: #540B51;
+    color: white;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+}
+#slacksales {
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    text-align: center;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+}
+#finallist {
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#percentage1 {
+    color: #540B51;
+    font-size: 30px;
+}
+#percentage2 {
+    color: #540B51;
+    font-size: 30px;
+}
+#percentage3 {
+    color: #540B51;
+    font-size: 30px;
+}
+.finalsect {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+
+
+}
+#finaltitle {
+    color: white;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 100px;
+
+}
+#lastbut {
+    order: 1;
+    background-color: white;
+    color: #540B51;
+    text-transform: uppercase;
+    text-align: center;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+    font-weight: 700;
+}
+#lastbut2 {
+    text-transform: uppercase;
+    background-color: #540B51;
+    color: white;
+    height: 60px;
+    margin: 0 auto;
+    width: 500px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin: white;
+}
+footer {
+    background-color: white;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: 40px;
+}
+#stacklogo {
+    width: 70px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#finaltable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+#column1 {
+    list-style: none;
+
+}
+#column2 {
+    list-style: none;
+}
+#column3 {
+    list-style: none;
+}
+#column4 {
+    list-style: none;
+}
+#tit1 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#tit2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#tit3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#tit4 {
+    font-weight: bold;
+    margin-bottom: 15px;    
+}
+#thelasttable {
+    list-style: none;
+    margin-left: -16px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#thefinal {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    font-size: 30px;
+}
+
+
+
+
 /*
 background purple: #540B51
 background ivory: #F3EAE2
